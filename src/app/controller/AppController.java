@@ -1,7 +1,7 @@
 package app.controller;
 
 import app.entity.User;
-import app.task.CollectionsTask;
+import app.model.CollectionsTask;
 
 import java.util.Scanner;
 
@@ -15,7 +15,8 @@ public class AppController {
             2) Show users by index
             3) stop and exit
             """;
-    public static void Processing() {
+
+    public void Processing() {
 //        Init scanner
         Scanner scanner = new Scanner(System.in);
 //        Set users in list

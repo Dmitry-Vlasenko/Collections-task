@@ -1,4 +1,4 @@
-package app.task;
+package app.model;
 
 import app.entity.User;
 
