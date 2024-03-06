@@ -18,7 +18,7 @@ public class AppController {
 
     public void Processing() {
 //        Init scanner
-        Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
 //        Set users in list
         CollectionsTask task = new CollectionsTask();
         task.addUser(new User("John", "john@gmail.com"));
@@ -51,6 +51,7 @@ public class AppController {
                     break;
 //                    exit
                 case "3":
+                    scanner.close();
                     System.out.println("By-by");
                     return;
 //                    Wrong selection
